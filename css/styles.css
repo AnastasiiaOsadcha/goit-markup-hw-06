@@ -108,6 +108,16 @@ body {
   border-bottom: 1px solid #ececec;
 }
 
+.header {
+  position: fixed;
+  min-height: 80px;
+  top: 0px;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 2;
+}
+
 .header-contact {
   display: flex;
 }
@@ -309,6 +319,10 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: white;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  outline: none;
+
 }
 
 .modal-close {
@@ -1056,6 +1070,51 @@ outline: none;
   text-align: center;
   outline: none;
 }
+
+.button-backdrop {
+  display: flex;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.svg-button-backdrop {
+  background-color: #fff;
+}
+
+.block-form {
+  display: block;
+justify-content: center;
+margin: 40px;
+width: 448px;
+}
+
+.input {
+  overflow: visible;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
