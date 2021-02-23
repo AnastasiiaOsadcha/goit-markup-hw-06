@@ -1318,3 +1318,17 @@ outline: none;
   -webkit-appearance: button;
 }
 
+.input-email:hover,
+.input-email:focus {
+  border: 1px solid #2196f3;
+}
+
+.input-tel:hover,
+.input-tel:focus {
+  border: 1px solid #2196f3;
+}
+
+.input-email:hover,
+.input-email:focus {
+  border: 1px solid #2196f3;
+}
