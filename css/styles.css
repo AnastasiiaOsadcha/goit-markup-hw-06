@@ -1088,7 +1088,20 @@ outline: none;
 }
 
 .svg-button-backdrop {
-  background-color: #fff;
+  display: flex;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-image: url("../Images/Icon/sprite.svg.#icon-vector");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
 }
 
 .block-form {
@@ -1318,8 +1331,8 @@ outline: none;
   -webkit-appearance: button;
 }
 
-.input-email:hover,
-.input-email:focus {
+.input-name:hover,
+.input-name:focus {
   border: 1px solid #2196f3;
 }
 
@@ -1332,3 +1345,4 @@ outline: none;
 .input-email:focus {
   border: 1px solid #2196f3;
 }
+
